@@ -6,4 +6,6 @@ a =: +/ (>. - <.)/ (/:~)"1 data
 'left right' =: ;/ data
 b =: +/ right * +/ left =/ right
 
-
+echo a
+echo b
+exit ''
