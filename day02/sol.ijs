@@ -6,6 +6,6 @@ check =: [: */ [: ((>&0) * (<:&3)) [: ([ * *&{.) [: }. (- |.!.0)
 a =: [: +/ check@>
 b =: [: +/ {{>./ check"1 (1]\. y)}}@>
 
-echo a
-echo b
+echo a data
+echo b data
 exit ''
