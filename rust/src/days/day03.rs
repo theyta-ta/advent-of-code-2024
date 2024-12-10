@@ -19,6 +19,8 @@ fn part_a(data: &str) -> u32 {
 
 fn part_b(data: &str) -> u32 {
     let re = Regex::new(r"(?:^|do\(\))(.*?)(?:don't\(\).*?|$)").unwrap();
+    // i know you can do better than recreating the string but w/out `\n`s.
+    // i just dont want to.
     re.captures_iter(&data.lines().collect::<Vec<_>>().join(""))
         .map(|c| c.extract::<1>().1[0])
         .map(part_a)

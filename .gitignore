@@ -1,1 +1,9 @@
+# for J
 **/data.txt
+
+# for rust
+**/data/
+**/debug/
+**/target/
+**/Cargo.lock
+**/*.rs.bk
