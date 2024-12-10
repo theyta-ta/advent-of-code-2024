@@ -1,7 +1,8 @@
 my first aoc :D
 
-solutions are done in [J](https://www.jsoftware.com/#/), 
-and [rust](https://www.rust-lang.org/) if i need to do it in something thats not an array language,
-or if im helping someone do their own rust solution, and write a solution on my machine while helping them.
+solutions were done in [J](https://www.jsoftware.com/#/), 
+and now in [rust](https://www.rust-lang.org/) if i need to do it in something thats not an array language,
+because quite frankly array programming scared me and i spook easily.
 
-my solutions are not timed, as i am new to array programming and will probably write bad and slow solutions for the problems.
+because i missed 8 whole days of problems, right now i am just banging out solutions.
+i will format them nicer and optimize them later, if i have the time and energy.
