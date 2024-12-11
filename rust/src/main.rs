@@ -1,6 +1,6 @@
 pub mod days;
 pub(crate) mod file_ops;
-use days::{day03, day04};
+use days::{day03, day04, day05};
 
 fn main() {
     let args: Vec<_> = std::env::args().collect();
@@ -10,7 +10,8 @@ fn main() {
         0..=2 => unimplemented!(),
         3 => day03::solve(),
         4 => day04::solve(),
-        5..=25 => unimplemented!(),
+        5 => day05::solve(),
+        6..=25 => unimplemented!(),
         _ => panic!("not an advent day"),
     }
 }
