@@ -5,11 +5,8 @@ pub fn solve() {
     let data_str = file_ops::read_day::<13>();
     let data: Vec<_> = data_str.split("\n\n").map(parse_block).collect();
     println!("part a: {}", part_a(&data));
-    let now = std::time::Instant::now();
-    let b = part_b(&data);
-    let elapsed = now.elapsed();
-    println!("part b: {}", b);
-    println!("part b time: {:?}", elapsed);
+    // takes <40us on my machine :D
+    println!("part b: {}", part_b(&data));
 }
 
 type Trip = [[i128; 2]; 3];
